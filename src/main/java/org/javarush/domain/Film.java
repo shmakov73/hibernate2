@@ -174,7 +174,6 @@ public class Film {
         return result;
     }
 
-    //TODO
     public void setSpecialFeatures(Set<Feature> features) {
         if ((isNull(features))){
             specialFeatures = null;

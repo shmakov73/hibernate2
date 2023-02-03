@@ -5,7 +5,6 @@ import jakarta.persistence.Converter;
 
 import java.time.Year;
 
-//TODO недоделал
 @Converter(autoApply = true)
 public class YearAttributeConverter implements AttributeConverter<Year, Short> {
     @Override
